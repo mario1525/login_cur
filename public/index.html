@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <div class="logo">
+      <img src="assets/logo.png" alt="Logo" />
+      <!--imagen del logo de la universidad-->
+    </div>
+
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Dosis:wght@200;500;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.15.1/css/all.css"
+      integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="styles/main.css" />
+    <link rel="stylesheet" href="styles/normalize.css" />
+    <!--con esto elimino margenes-->
+    <title>Login</title>
+  </head>
+  <body>
+    <main class="login-design">
+      <div class="waves">
+        <!--waves es la seccion de la izq waves (olas)-->
+        <img src="assets/loginPerson.png" alt="" />
+        <!--imagen de muñequita-->
+      </div>
+      <div class="login">
+        <!--login esta es la parte derecha -->
+        <div class="login-data">
+          <!--cuadro donde van datos de inicio de session-->
+          <img src="assets/collab.png" alt="" />
+          <!--imagen de la parte izq 2 bolitas-->
+          <h1>Inicio de Sesión</h1>
+          <form action="/" method="POST" class="login-form">
+            <div class="input-group">
+              <label class="input-fill">
+                <input type="email" name="email" id="email" required />
+                <span class="input-label">Correo Electrónico</span>
+                <i class="fas fa-envelope"></i>
+                <!--icono de email-->
+              </label>
+            </div>
+            <div class="input-group">
+              <label class="input-fill">
+                <input type="password" name="password" id="password" required />
+                <span class="input-label">Contraseña</span>
+                <i class="fas fa-lock"></i>
+                <!--icono de password  candadito-->
+              </label>
+            </div>
+            <p>
+              ¿Necesitas una cuenta?
+              <a class="link" href="http://localhost:3000/registrar"
+                >Registrate
+              </a>
+            </p>
+            <button id="login" type="submit" class="btn-login button">
+              Iniciar Sesion
+            </button>
+          </form>
+        </div>
+      </div>
+    </main>
+  </body>
+</html>

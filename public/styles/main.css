@@ -1,0 +1,162 @@
+body {  
+  font-family: 'Dosis', sans-serif;
+}
+.logo {
+  position: absolute;
+  top: 25px;
+  left: 25px;
+}
+
+.logo img {
+  height: 60px;
+  width: auto;
+}
+
+.login-design {
+  display: grid;
+  grid-template-columns: repeat(50, 50%);
+  height: 110vh;
+}
+.waves { 
+  background-image: url('../assets/wave.png'); 
+  background-repeat: no-repeat; 
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+
+.login-design .waves img { 
+  width: 28%;
+
+
+      
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-160%, -50%);
+      
+        
+        
+    }
+    
+    .login-data img {
+      display: block;
+      margin: 0 auto;
+      position: absolute;
+      top: 50px;
+      right: 20px;
+      transform: translateX(-60%);
+    }
+    
+    
+    
+    
+    
+  
+
+.login {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.login-data {
+  text-align: center;
+  width: 60%;
+}
+ 
+.input-group {
+  position: relative;
+  width: 60%;
+  margin: 0 auto;
+  margin-bottom: 1.5rem;
+}
+
+.input-fill input {
+  border: none;
+  border-bottom: 3px solid #e9ecef;
+  width: 100%;
+  height: 2rem;
+  font-size: 1.0625rem;
+  padding-left: 2rem;
+  line-height: 147.6%;
+  padding-top: 1rem;
+  padding-bottom: 0.5rem;
+}
+
+.input-fill input:focus {
+  outline: none;
+  border-color: #00f;
+}
+
+.input-fill input:hover {
+  background-color: #e9ecef;
+}
+
+.input-fill input:focus + .input-label {
+  top: 0;
+  margin-bottom: 2rem;
+  color: #00f;
+
+}
+
+.input-fill input:focus ~ i {
+  color: #00f;
+}
+
+.input-fill .input-label {
+  position: absolute;
+  top: 15px;
+  left: 28px;
+  line-height: 2%;
+  color: #848f9a;
+  transition: top .2s;
+  font-weight: 700;
+}
+
+.input-fill i {
+  position: absolute;
+  top: 19px;
+  left: 0;
+  color: #848f9a;
+  font-size: 1.5rem;
+}
+
+.login-form a {
+  display: block;
+  width: 85%;
+  text-align: right;
+  text-decoration: none;
+  color: #0000ff;
+  margin-bottom: 1.3rem;
+  font-weight: 800;
+  transition: 0.3s ease-in-out all;
+  font-size: 18px;
+}
+
+.login-form a:hover {
+  color: rgb(0, 0, 0);
+}
+
+.btn-login {
+  border-radius: 3rem;
+  width: 45%;
+  border: 1px solid #00f;
+  line-height: 1.6rem;
+  font-size: 1.3rem;
+  background-color: #00f;
+  color: #ffffff;
+  padding: 0.5rem 0;
+  transition: 0.3s ease-in-out all;
+  font-weight: 500;
+}
+
+.btn-login:hover {
+  cursor: pointer;
+  background-color: #ffffff;
+  color: #0000ff;
+}
